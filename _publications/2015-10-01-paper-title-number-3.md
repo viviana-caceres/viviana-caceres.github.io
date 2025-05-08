@@ -6,7 +6,6 @@ permalink: /publication/2024-11-29-low-cost-switching-circuit-vdp
 excerpt: 'This paper is about a cost-effective switching circuit for resistivity and Hall measurements.'
 date: 2025-11-29
 venue: 'Instrumentation Science & Technology'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 paperurl: 'https://www.tandfonline.com/doi/abs/10.1080/10739149.2024.2431967'
 citation: 'Cáceres, V. et al. (2024). &quot;Low cost switching circuit for van der Pauw resistivity and Hall measurements at various temperatures.&quot; <i>Instrumentation Science & Technology</i>. pp. 1–12. doi: 10.1080/10739149.2024.2431967.'
 ---
