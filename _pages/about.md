@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Disclaimer: This personal website is under development.
 
 I am a second-year graduate student and a National Science Foundation Graduate Research Fellow at the Pennsylvania State University. I am interested in modeling gravitational waveforms, estimating parameters of compact binary coalescences, and investigating how dark matter accretion into neutron stars could influence gravitational waves from their mergers.
 
@@ -14,13 +15,13 @@ I completed my undergraduate degree at the University of Puerto Rico at Mayagüe
 Outside of physics, I enjoy making music. Check it out on [Instagram](https://www.instagram.com/musicbyviviana/) and [Youtube](https://www.youtube.com/@Vivi-kx8cw)! :)
 
 
-En español
+Sobre Mí
 ======
-Soy estudiante de segundo año y becaria de investigación de posgrado de la National Science Foundation en Pennsylvania State University. MMe interesan los modelos de ondas gravitacionales, la estimación de parámetros de las colisiones de objetos compactos y los posibles efectos de la acumulación de materia oscura dentro de estrellas de neutrones sobre las ondas gravitacionales que observamos.
+Soy estudiante de segundo año y becaria de investigación de posgrado de la National Science Foundation en Pennsylvania State University. Me interesan los modelos de ondas gravitacionales, la estimación de parámetros de las colisiones de objetos compactos y los posibles efectos de la acumulación de materia oscura dentro de estrellas de neutrones sobre las ondas gravitacionales que observamos.
 
 Realicé mi bachillerato en Física, con una secuencia curricular en Matemáticas Aplicadas, en la Universidad de Puerto Rico, Recinto Universitario de Mayagüez (¡Antes, Ahora y Siempre... Colegio!). Me gradué en 2023 y recibí el Premio Enrico Fermi, que otorga el Departamento de Física al estudiante más destacado.
 
-Fuera de la física, me gusta hacer música. ¡Sígueme en [Instagram](https://www.instagram.com/musicbyviviana/) o [Youtube](https://www.youtube.com/@Vivi-kx8cw)! :)
+Fuera de la física, me gusta hacer música. ¡Sígueme en [Instagram](https://www.instagram.com/musicbyviviana/) y en [Youtube](https://www.youtube.com/@Vivi-kx8cw)! :)
 
 
 
