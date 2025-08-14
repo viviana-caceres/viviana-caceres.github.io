@@ -1,0 +1,10 @@
+/* Only affect the About page */
+.layout--single .sidebar.sticky {
+  position: relative;  /* removes the sticky/floating behavior */
+  top: auto;           /* no offset */
+}
+
+/* Add some breathing room under the header */
+.layout--single .sidebar {
+  margin-top: 1rem;
+}
