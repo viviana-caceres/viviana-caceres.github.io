@@ -17,12 +17,12 @@
     margin-top: 1em;
   }
 
-  // Inside your media query
   @media screen and (min-width: $sidebar-screen-min-width) {
-    height: auto;                 // let it grow naturally
-    overflow-y: visible;          // no scrollbar needed
-    position: relative;           // sidebar flows under header
-    padding-top: 0;               // remove extra offset
+    height: auto;               // let it grow naturally
+    overflow: visible;          // no extra scrollbar
+    position: sticky;           // sticks as you scroll
+    top: $masthead-height;      // starts below header
+    padding-top: 0;             // remove old offset
   }
 
   @include breakpoint($large) {
