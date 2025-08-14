@@ -1,14 +1,18 @@
 ---
+layout: single
 permalink: /
 title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+header:
+  overlay_image: ../images/atardecer_parguera.png
+  overlay_filter: 0.3   # optional, darkens the image for text contrast
+  caption: "La Parguera, Puerto Rico (Photo by me)"
 ---
-![My cover image](../images/atardecer_parguera.png)
 
-Hi! I'm Viviana, a second-year Ph.D. student and NSF Graduate Research Fellow at Penn State.
+I'm Viviana, a second-year Ph.D. student and NSF Graduate Research Fellow at Penn State.
 
 My research focuses on modeling gravitational waveforms, estimating parameters of compact binary mergers, and investigating how dark matter inside neutron stars might leave detectable imprints on gravitational wave signals. I work with the [Physics and Astrophysics to the eXtreme (PAX) group](https://sites.psu.edu/infinity/) under the guidance of B.S. Sathyaprakash. I'm also a member of the [LIGO Scientific Collaboration](https://ligo.org/) and the [Cosmic Explorer Consortium](https://cosmicexplorer.org/index.html#intro).
 
