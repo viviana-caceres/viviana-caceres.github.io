@@ -19,9 +19,10 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     position: sticky;
-    height: 25vh;
-    overflow-y: auto;
-    padding-top: $masthead-height;
+    top: 0px; // adjust to your header’s real height
+    height: 100vh;
+    overflow: visible;
+    padding-top: 0;
   }
 
   @include breakpoint($large) {
