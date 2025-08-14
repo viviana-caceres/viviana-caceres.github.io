@@ -1,10 +1,12 @@
-/* Only affect the About page */
-.layout--single .sidebar.sticky {
-  position: relative;  /* removes the sticky/floating behavior */
-  top: auto;           /* no offset */
+/* About page: make profile card sit under header */
+body.page-about .sidebar.sticky {
+  position: relative;  /* disables floating over header */
+  top: auto;           /* remove offset */
+  margin-top: 1rem;    /* spacing below header */
 }
 
-/* Add some breathing room under the header */
-.layout--single .sidebar {
-  margin-top: 1rem;
+/* Optional: make sidebar sticky after scrolling past header */
+body.page-about .sidebar {
+  position: sticky;
+  top: 120px; /* adjust this to match your header height */
 }
