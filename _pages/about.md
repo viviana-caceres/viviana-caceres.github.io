@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Disclaimer: This personal website is under development.
+![My cover image](../images/atardecer_parguera.png)
 
 Hi! I'm Viviana, a second-year Ph.D. student and NSF Graduate Research Fellow at Penn State.
 
