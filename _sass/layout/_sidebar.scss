@@ -20,7 +20,7 @@
   @media screen and (min-width: $sidebar-screen-min-width) {
     position: sticky;
     top: 0px; // adjust to your header’s real height
-    height: auto;
+    height: 50vh;
     overflow: visible;
     padding-top: 0;
   }
