@@ -1,7 +1,7 @@
 ---
 title: "Persistence of post-Newtonian structure in binary black hole mergers"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2025-08-28-persistence_of_pn_structure
 excerpt: 'This paper uses numerical relativity simulations to study post-Newtonian imprints in the merger phase of binary black hole coalescences.'
 date: 2025-08-28
