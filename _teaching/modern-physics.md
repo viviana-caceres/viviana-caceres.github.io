@@ -2,13 +2,14 @@
 title: "Introduction to Modern Physics"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/modern-physics-fall24
+permalink: /teaching/modern-physics
 venue: "The Pennsylvania State University, Department of Physics"
 date: 2024-08-20
 location: "State College, Pennsylvania"
+duration: "Fall 2024 – Spring 2025 (two semesters)"
 ---
 
-I was a teaching assistant for Introduction to Modern Physics for Physics/Astronomy majors. I led weekly recitations, held office hours to answer students' questions, and graded their homework assignments.
+I was a teaching assistant for Introduction to Modern Physics, leading one section for Physics and Astronomy majors and another section for nonmajors. I led weekly recitations, held office hours to answer students' questions, and graded their homework assignments.
 
 Course Description
 ======
