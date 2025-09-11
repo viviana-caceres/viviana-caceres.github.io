@@ -140,13 +140,13 @@
       "description": ""
     }
   ],
-  "portfolio": [
+  "awards": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Awards item number 1",
+      "category": "awards",
       "date": "",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Short description of awards item number 1<br/><img src='/images/500x300.png'>"
     }
   ]
 }
