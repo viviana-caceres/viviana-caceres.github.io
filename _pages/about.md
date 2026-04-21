@@ -14,7 +14,7 @@ header:
 
 I'm Viviana, a third-year Ph.D. student and NSF Graduate Research Fellow at Penn State.
 
-My research focuses on modeling gravitational waveforms, estimating parameters of compact binary mergers, and investigating how dark matter inside neutron stars might leave detectable imprints on gravitational wave signals. I work with B.S. Sathyaprakash in the [Physics and Astrophysics to the eXtreme (PAX) group](https://sites.psu.edu/infinity/) at Penn State. I'm also a member of the [LIGO Scientific Collaboration](https://ligo.org/) and the [Cosmic Explorer Consortium](https://cosmicexplorer.org/index.html#intro).
+My research focuses on testing general relativity, modeling gravitational waveforms, and investigating how dark matter inside neutron stars might leave detectable imprints on gravitational wave signals. I work with B.S. Sathyaprakash in the [Physics and Astrophysics to the eXtreme (PAX) group](https://sites.psu.edu/infinity/) at Penn State. I'm also a member of the [LIGO Scientific Collaboration](https://ligo.org/) and the [Cosmic Explorer Consortium](https://cosmicexplorer.org/index.html#intro).
 
 I completed my bachelor's degree in Theoretical Physics at the University of Puerto Rico at Mayagüez, with a Curricular Sequence in Applied Mathematics. Upon graduating in 2023, I received the Enrico Fermi Prize, awarded by the Physics Department to its most distinguished graduate. 
 
@@ -27,10 +27,10 @@ Sobre Mí
 ======
 Mi nombre es Viviana y soy estudiante de tercer año de doctorado y becaria de investigación de la NSF en Penn State. 
 
-Me interesa modelar las señales de ondas gravitacionales, aproximar los parámetros de las fusiones de objetos compactos e investigar cómo la materia oscura dentro de las estrellas de neutrones podría dejar huellas detectables en las ondas gravitacionales. Trabajo con B.S. Sathyaprakash en el grupo de [Física y Astrofísica al Extremo (PAX, por sus siglas en inglés)](https://sites.psu.edu/infinity/). También soy miembro de la [colaboración científica de LIGO](https://ligo.org/) y el [consorcio Cosmic Explorer](https://cosmicexplorer.org/index.html#intro).
+Me interesa poner a prueba la teoría de relatividad general, modelar las señales de ondas gravitacionales, e investigar cómo la materia oscura dentro de las estrellas de neutrones podría dejar huellas detectables en las ondas gravitacionales. Trabajo con B.S. Sathyaprakash en el grupo de [Física y Astrofísica al Extremo (PAX, por sus siglas en inglés)](https://sites.psu.edu/infinity/). También soy miembro de la [colaboración científica de LIGO](https://ligo.org/) y el [consorcio Cosmic Explorer](https://cosmicexplorer.org/index.html#intro).
 
 Obtuve mi bachillerato en Física Teórica en la Universidad de Puerto Rico, Recinto Universitario de Mayagüez (¡Antes, Ahora y Siempre... Colegio!), con una secuencia curricular en Matemáticas Aplicadas. Cuando me gradué en el 2023, recibí el Premio Enrico Fermi, otorgado por el Departamento de Física a su estudiante más destacado.
 
 Además de la investigación, me apasiona la comunicación científica. Soy autora para [Astrobites](https://astrobites.org/author/vcaceres/) y he sido voluntaria en varias demostraciones públicas de física. Esta página es un espacio para compartir recursos que me han sido útiles, compartir mi trabajo y difundir mi amor por la física.
 
-Fuera del ámbito académico, disfruto ver películas, hacer ejercicio, cocinar y hacer música. ¡Puedes escuchar mi música en [Instagram](https://www.instagram.com/musicbyviviana/) y en [Youtube](https://www.youtube.com/@Vivi-kx8cw)! :)
+Fuera del ámbito académico, me gustan las películas, hacer ejercicio, cocinar, y componer canciones. ¡Puedes seguir mi música en [Instagram](https://www.instagram.com/musicbyviviana/) y en [Youtube](https://www.youtube.com/@Vivi-kx8cw)! :)
