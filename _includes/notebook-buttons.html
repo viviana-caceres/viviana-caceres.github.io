@@ -1,0 +1,31 @@
+{% include base_path %}
+
+{% comment %}
+  Colab / nbviewer / download buttons for a page whose front matter sets
+  `notebook:` to a repo-relative path. Safe to include on pages without one.
+{% endcomment %}
+
+{% if page.notebook %}
+  {% assign nb_branch = include.branch | default: "master" %}
+  <p class="notebook-actions">
+    {% unless page.colab == false %}
+      <a class="btn btn--small btn--warning"
+         href="https://colab.research.google.com/github/{{ site.repository }}/blob/{{ nb_branch }}/{{ page.notebook }}">
+        Run in Colab
+      </a>
+    {% endunless %}
+    {% if page.binder %}
+      <a class="btn btn--small btn--info"
+         href="https://mybinder.org/v2/gh/{{ site.repository }}/{{ nb_branch }}?filepath={{ page.notebook }}">
+        Launch Binder
+      </a>
+    {% endif %}
+    <a class="btn btn--small btn--inverse"
+       href="https://nbviewer.org/github/{{ site.repository }}/blob/{{ nb_branch }}/{{ page.notebook }}">
+      View on nbviewer
+    </a>
+    <a class="btn btn--small btn--inverse" href="{{ base_path }}/{{ page.notebook }}">
+      Download .ipynb
+    </a>
+  </p>
+{% endif %}

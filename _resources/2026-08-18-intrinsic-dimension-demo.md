@@ -11,25 +11,11 @@ tags:
   - dimensionality reduction
 ---
 
-This notebook walks through the two-nearest-neighbours (TwoNN) estimator from scratch —
-no libraries beyond NumPy and Matplotlib, so you can see exactly where the dimension
-estimate comes from.
+{% include notebook-buttons.html %}
 
-## What it covers
+{% include notebooks/intrinsic-dimension-demo.md %}
 
-1. **Building a test case.** Sampling points from a 2-dimensional manifold and embedding
-   them linearly in 10 dimensions, so we know the right answer in advance.
-2. **The estimator.** For every point, the ratio of the distances to its second and first
-   nearest neighbours is Pareto-distributed with shape parameter equal to the intrinsic
-   dimension. Fitting the empirical CDF recovers it in a few lines.
-3. **Noise.** Sweeping the noise level to see how quickly the estimate drifts away from
-   the true dimension once points sit off the manifold.
-
-## Running it
-
-The fastest option is **Run in Colab** above — nothing to install, and you can edit the
-cells directly. **Download .ipynb** if you'd rather run it locally; it only needs
-`numpy` and `matplotlib`.
+---
 
 ## Reference
 

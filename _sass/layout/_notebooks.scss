@@ -1,0 +1,44 @@
+/* ==========================================================================
+   NOTEBOOKS
+   Styling for pages generated from .ipynb by scripts/notebook_to_markdown.py
+   ========================================================================== */
+
+.notebook-actions {
+  margin-bottom: 1.5em;
+}
+
+/* Rich cell output: pandas tables, rendered SVG, anything emitted as HTML. */
+.notebook-output {
+  overflow-x: auto;
+  margin: 0 0 1.5em;
+  font-size: $type-size-6;
+
+  table {
+    margin-bottom: 0;
+    font-size: inherit;
+  }
+
+  /* Pandas writes its own <style> block; keep its tables readable regardless. */
+  th,
+  td {
+    padding: 0.35em 0.75em;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  svg,
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Figures produced by a notebook sit on their own line, not floated. */
+.page__content .notebook-output + p,
+.page__content p > img[src*="/images/notebooks/"] {
+  display: block;
+}
