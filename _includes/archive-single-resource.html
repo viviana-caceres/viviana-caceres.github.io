@@ -1,0 +1,67 @@
+{% include base_path %}
+
+{% comment %}
+  Card for one entry in the `resources` collection.
+
+  Front matter it understands:
+    title, excerpt, date      — standard
+    notebook: notebooks/x.ipynb  (repo-relative) renders Colab / nbviewer / download buttons
+    colab: false              — opt out of the Colab button for a notebook
+    binder: true              — opt in to a Binder button (needs requirements.txt in the repo)
+    tags: [a, b]              — rendered as plain text under the excerpt
+{% endcomment %}
+
+{% assign nb_branch = include.branch | default: "master" %}
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+    </h2>
+
+    {% if post.date %}
+      <p class="page__date">
+        <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y" }}</time>
+      </p>
+    {% endif %}
+
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+      </p>
+    {% endif %}
+
+    {% if post.notebook %}
+      <p>
+        {% unless post.colab == false %}
+          <a class="btn btn--small btn--warning"
+             href="https://colab.research.google.com/github/{{ site.repository }}/blob/{{ nb_branch }}/{{ post.notebook }}">
+            Run in Colab
+          </a>
+        {% endunless %}
+        {% if post.binder %}
+          <a class="btn btn--small btn--info"
+             href="https://mybinder.org/v2/gh/{{ site.repository }}/{{ nb_branch }}?filepath={{ post.notebook }}">
+            Launch Binder
+          </a>
+        {% endif %}
+        <a class="btn btn--small btn--inverse"
+           href="https://nbviewer.org/github/{{ site.repository }}/blob/{{ nb_branch }}/{{ post.notebook }}">
+          View notebook
+        </a>
+        <a class="btn btn--small btn--inverse" href="{{ base_path }}/{{ post.notebook }}">
+          Download .ipynb
+        </a>
+      </p>
+    {% endif %}
+
+    {% if post.tags and post.tags.size > 0 %}
+      <p class="page__meta"><i class="fa fa-fw fa-tag" aria-hidden="true"></i>
+        {{ post.tags | join: " &middot; " }}
+      </p>
+    {% endif %}
+
+  </article>
+</div>

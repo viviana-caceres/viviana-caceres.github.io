@@ -1,0 +1,53 @@
+---
+layout: archive
+title: "Resources"
+permalink: /resources/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% comment %}
+  Branch that notebooks are served from. Change this if you rename the default branch.
+{% endcomment %}
+{% assign nb_branch = "master" %}
+
+{% comment %}
+  Controls the order categories appear on the page. A resource whose `category`
+  is not listed here still shows up, under "Other" at the bottom.
+{% endcomment %}
+{% assign category_order = "Tutorials,Notebooks,Guides & Cheatsheets" | split: "," %}
+
+<p>
+  Notes, interactive tutorials, and Jupyter notebooks I put together while learning
+  things. Everything here is free to use — if something is unclear or wrong, please
+  <a href="mailto:{{ site.author.email }}">let me know</a>.
+</p>
+
+{% assign shown = "" | split: "," %}
+
+{% for category in category_order %}
+  {% assign items = site.resources | where: "category", category | sort: "date" | reverse %}
+  {% if items.size > 0 %}
+    <h2 id="{{ category | slugify }}">{{ category }}</h2>
+    {% for post in items %}
+      {% assign shown = shown | push: post.url %}
+      {% include archive-single-resource.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign leftovers = "" | split: "," %}
+{% for post in site.resources %}
+  {% unless shown contains post.url %}
+    {% assign leftovers = leftovers | push: post %}
+  {% endunless %}
+{% endfor %}
+
+{% if leftovers.size > 0 %}
+  <h2 id="other">Other</h2>
+  {% assign sorted_leftovers = leftovers | sort: "date" | reverse %}
+  {% for post in sorted_leftovers %}
+    {% include archive-single-resource.html %}
+  {% endfor %}
+{% endif %}
