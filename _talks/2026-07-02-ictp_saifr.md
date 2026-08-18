@@ -3,7 +3,7 @@ title: "Estimating the intrinsic dimension of black hole ringdown frequencies an
 collection: talks
 type: "Talk"
 permalink: /talks/2026-07-02-ictp_saifr
-venue: "Instituto Principia, ICTP-SAIFR"
+venue: "Third generation gravitational wave detectors: the view from Latin America, Instituto Principia"
 date: 2026-07-02
 location: "São Paulo, Brasil"
 ---
