@@ -8,7 +8,7 @@ date: 2025-08-14
 location: "Mayagüez, PR"
 ---
 
-<img src="/images/uprm_colloquium_2025.jpg" alt="Seminar at UPRM 2025" width="500"/>
+<img src="/images/talks/uprm_colloquium_2025.jpg" alt="Seminar at UPRM 2025" width="500"/>
 
 Hace casi diez años, la primera detecctión de ondas gravitacionales abrió una nueva ventana para explorer fenómenos extremos del universo. En este seminario, se presentará una visión general de la astrofísica de ondas gravitacionales, desde su detección mediante interferómetros como LOGO hasta el análisis de fusiones de objetos compactos, como agujeros negros y estrellas de neutrones. Se abordarán los modelos teóricos y numéricos usados para predecir formas de onda y extraer parámetros físicos de las señales observadas, lo que permite estudiar la formación de sistemas binarios, la población de objetos compactos, y poner a prueba la relatividad general en condiciones de gravedad extrema. Además, las fusiones de estrellas de neutrones ofrecen información clave sobre su estructura interna y la ecuación de estado, subrayando el papel central de estas señales en la comprensión del cosmos.
 
